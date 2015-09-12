@@ -1,0 +1,121 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/Ishan/Documents/workspace/BiteMyCoin/src/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1b756711, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/classes:/Users/Ishan/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/Ishan/Documents/workspace/BiteMyCoin/src/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:3: object typesafe is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:4: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorSystem[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:5: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Props[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:6: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Actor[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:7: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorRef[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:8: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.routing.RoundRobinRouter[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:43: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m      val configuration = ConfigFactory.parseString(configString)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:44: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m      val system = ActorSystem("BitCoinMining", ConfigFactory.load(configuration))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:69: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m      val configuration = ConfigFactory.parseString(configString)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:70: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m      val system = ActorSystem("Node", ConfigFactory.load(configuration))[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:82: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass SuperMaster extends Actor {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:91: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:96: not found: value sender[0m
+[0m[[31merror[0m] [0m      sender() ! MasterRegistered[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:123: not found: value context[0m
+[0m[[31merror[0m] [0m      val masterSelection = context.actorSelection(connectionRef._4)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:126: not found: value context[0m
+[0m[[31merror[0m] [0m      context.actorFor(connectionRef._4) ! StartWork(connectionRef, currTask)[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:136: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass Master(val superMasterReferencePath: String, val masterReferencePath: String, val isMasterLocal: Int, val gatorID: String, val mask: Int) extends Actor {[0m
+[0m[[31merror[0m] [0m                                                                                                                                                        ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:146: not found: value context[0m
+[0m[[31merror[0m] [0m  val workerRouter = context.actorOf([0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:153: not found: value context[0m
+[0m[[31merror[0m] [0m      val selection = context.actorSelection(superMasterReferencePath)[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:156: not found: value context[0m
+[0m[[31merror[0m] [0m      context.actorFor(superMasterReferencePath) ! MasterRegistration(uuid, isMasterLocal, superMasterReferencePath, masterReferencePath)[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:162: not found: value context[0m
+[0m[[31merror[0m] [0m      val selection = context.actorSelection(superMasterReferencePath)[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:167: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:193: not found: value context[0m
+[0m[[31merror[0m] [0m      val superMasterSelection = context.actorSelection(superMasterReferencePath)[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:196: not found: value context[0m
+[0m[[31merror[0m] [0m      context.actorFor(superMasterReferencePath) ! Result(connectionRef)[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:178: not found: value context[0m
+[0m[[31merror[0m] [0m        val superMasterSelection = context.actorSelection(superMasterReferencePath)[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:181: not found: value context[0m
+[0m[[31merror[0m] [0m        context.actorFor(superMasterReferencePath) ! BitCoinFound(str, hash)[0m
+[0m[[31merror[0m] [0m        ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:202: not found: type ActorRef[0m
+[0m[[31merror[0m] [0mcase class RegisterToSuperMaster(actorRef: ActorRef)[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:210: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass Worker(mask: Int, gatorId: String) extends Actor {[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:215: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/Ishan/Documents/workspace/BiteMyCoin/src/Project1.scala:241: not found: value sender[0m
+[0m[[31merror[0m] [0m          sender() ! BitCoinFound(str, hashValue)[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m29 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
