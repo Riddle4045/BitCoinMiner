@@ -5,6 +5,8 @@ import com.typesafe.config.ConfigFactory
 import akka.actor._
 
 trait Message
+
+
 case object RequestWork extends Message
 case class StartStandAlone(serverAddress : String , MasterPort : Int, trailingZeroes : Int) extends Message
 case object Start extends Message
