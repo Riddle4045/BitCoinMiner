@@ -50,4 +50,8 @@ run 4 x.x.x.x //to run the slave on different machine
 
 ```
 
+###Performance
+
+We were able to generate bitCoins with a much as 7 trailing 0's. In ways that can be considered a perofmance measure but it's too vague t o put a precise number on. For example the amount of time we waited to see if we have a bitCoin vaired from time to time.
+Although weak, this should give you an indication of the capabilites of Akka and Scala.
 
