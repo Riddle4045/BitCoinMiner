@@ -1,4 +1,4 @@
 ## BitCoinMiner
-A distributed BitCoinMiner using `*Scala*`and `*Akka framework*`
+A distributed BitCoinMiner using `_Scala_`and `_Akka framework_`
 
 
