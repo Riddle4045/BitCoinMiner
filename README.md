@@ -1,2 +1,4 @@
-# BitCoinMiner
-Distributed Operating Systems course project on bitcoin miner
+## BitCoinMiner
+A distributed BitCoinMiner using `*Scala*`and `*Akka framework*`
+
+
