@@ -46,7 +46,6 @@ Java -jar Project1.jar 4 x.x.x.x  //On slave machines to start slaves
 ```
 sbt 
 run 4 //to run the Master
-
 run 4 x.x.x.x //to run the slave on different machine
 
 ```
